@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+#container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: 2px gray solid;
+}
+
+.row {
+    display: flex;
+    min-height: 25px;
+    background-color: #222222;
+    height: 6%;
+}
+
+.square {
+    background-color: #FFFFFF;
+    min-height: 25px;
+    flex: 1 0 auto;
+}
+
+.hovered {
+    background-color: #888888 !important;
+}
